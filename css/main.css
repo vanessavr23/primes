@@ -1,0 +1,406 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Arial;
+}
+
+.ico{
+	font-size: 50px;
+}
+
+.contenedor{
+	width: 100%;
+	background-image: url(../img/background/hero.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;	
+}
+
+.star, .logo{
+	font-size: 24px;
+}
+
+nav{
+	padding: 0 4%;
+}
+
+.menu{
+	padding: 0 8px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+a:hover{
+		color: #00CED1;
+}
+
+.fila{
+	background-color: rgba( 0,0,0, 0.6);
+	padding: 3% 8%;
+}
+
+.fila .box{
+	width: 74%;
+	display: inline-block;
+	text-align: center;
+	margin: 0 12%;
+	padding: 0 0 16% 0;
+}
+
+.titulo{
+	font-size: 50px;
+	padding: 11% 0 4% 0;
+	line-height: 90%;
+}
+.text{
+	padding:  0 0 4% 0;
+	line-height: 120%;
+}
+
+.boton{
+	border: none;
+	padding: 15px;
+	margin: 0 20px;
+	background: rgba(255, 255, 255, 0.1);
+	font-size: 16px;
+}
+
+button:hover{
+	background-color: #00CED1;
+}
+
+.rs:hover{
+	color: #00CED1;
+}
+
+.foto:hover {
+	-webkit-transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+	.boton{
+		padding: 5px;
+		margin: 0 5px;
+	}
+
+	.menu{
+	padding: 0 0 0 3px;
+	font-size: 13px;
+	}
+
+	.titulo{
+		font-size: 40px;
+	}
+
+	h3, h4{
+	font-size: 20px;
+	line-height: 70%;
+	}
+
+	nav .cuadro{
+	padding: 4px 3px;
+	}
+
+	.paquete .paque{
+		padding: 0 20px 20px 20px;
+	}
+
+	.diana{
+		padding: 10px 40px;
+	}
+
+	.diana .pellen{
+		padding: 10px 40px;
+	}
+
+	.redes i{
+	font-size:30px;
+	} 
+
+	.contatame button{
+		margin: 0 0 25px 0;
+	}
+
+
+}
+
+
+.cajas{
+	margin: 6% 13%;
+}
+
+.cajita{
+	margin: 3% 0 5% 0 ;
+}
+
+.Diana{
+	color: #696969;
+}
+.vingraf i{
+	padding:  0 10px 20px 0;
+	font-size: 40px;
+}
+
+.chico{
+	font-size: 13px;
+}
+
+.subtitulo{
+	font-size: 32px;
+}
+
+.mac{
+	background-color: #f6f6f6;
+	padding: 5% 0 2% 0;
+}
+
+.laptop{
+	width: 70%;
+}
+
+.vineta{
+	display: block;
+	height: 200px;
+	width: 45px;
+	float: left;
+	padding-top: 18px;
+}
+
+.graf{
+	font-size: 30px;
+	float: left;
+}
+
+.cajas2{
+	padding: 5% 10%;
+}
+
+.vingraf{
+	padding: 2%;
+}
+
+.portafolio{
+	background-color: #f6f6f6;
+	padding: 1% 0 1% 0;
+}
+
+.lobortis{
+	padding: 2% 0 2% 0;
+}
+
+.porta{
+	padding: 4%;
+}
+
+.cuadro{
+	background-color: #fff;
+	padding: 10px;
+	text-decoration: none;
+	color: #555;
+	font-weight: bold;
+}
+
+.foto{
+	background: #fff;
+	padding: 2%;
+	margin: 3%;
+	box-shadow: 1px 1px 20px -5px rgba(0,0,0,0.5);
+	box-shadow: 1px 1px 20px -5px rgba(0,0,0,0.5);
+	box-shadow: 1px 1px 20px -5px rgba(0,0,0,0.5);	
+}
+
+.medio{
+	padding: 0 10%;
+}
+
+.pic{
+	width: 100%;
+}
+
+.botone{
+	border: none;
+	padding: 15px;
+	margin: 3% 0 0 0;
+	background: #555;
+	font-size: 16px;
+	color: #f6f6f6;
+}
+
+.cuidad{
+	background-image: url(../img/background/city.jpg);
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.sombra{
+	background-color: rgba( 0,0,0, 0.6)
+}
+
+.quisque{
+	padding: 10% 0 5% 0;
+	font-size: 22px;
+	line-height: 200%;
+	color: #f6f6f6;
+}
+
+.call{
+	font-size: 18px;
+	margin: 0 0 10% 0;
+	padding: 10px;
+	background: rgba(255, 255, 255, 0.2);
+	border: none;
+}
+
+.paquete{
+	background-color: #f6f6f6;
+	padding: 2% 0 3% 0;
+}
+
+.choose{
+	padding: 0 0 3% 0;
+}
+
+.paque{
+	margin: auto;
+	display: inline-block;
+	width: 100%;
+	padding: 0% 3% 0% 20%;
+}
+
+.paquete .marco{
+	background-color: #fff;
+	margin: 0 10px 20px 10px;
+	padding: 3% 0 0 0;
+	box-shadow: 1px 1px 20px -5px rgba(0,0,0,0.5);
+	box-shadow: 1px 1px 20px -5px rgba(0,0,0,0.5);
+	box-shadow: 1px 1px 20px -5px rgba(0,0,0,0.5);
+}
+
+.stand, .from, .standa{
+	width: 100%;
+	border: none;
+	padding: 10%;
+}
+
+.stand{
+	background-color: #555;
+}
+
+.standa{
+	background-color: #0dc0c0;
+}
+
+.from{
+	background-color: #f6f6f6;
+	margin: 0 0 10% 0;
+} 
+
+.linea{
+	display: inline-block;
+	width: 90%;
+}
+
+.borde{
+	padding: 5%;
+	border-bottom: 1px solid #f6f6f6;
+}
+
+.botones{
+	border: none;
+	padding: 10px 30px;
+	margin: 7% 0;
+	background: #555;
+	font-size: 16px;
+	color: #f6f6f6;
+	border-bottom: 1px solid #f6f6f6;
+}
+
+.what{
+	padding: 5%;
+}
+
+.chica{
+	width: 100px;
+	border-radius: 50%;
+}
+
+.chica:hover{
+	opacity: 0.5;
+}
+
+.pellen{
+	padding: 1% 20%;
+	line-height: 200%;
+}
+
+.contactos{
+	background-image: url(../img/background/contactus.jpg);
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.contaus{
+	padding: 3%;
+}
+
+.lorem{
+	padding: 0 0 3% 0;
+}
+
+.subsub{
+	font-size: 24px;
+}
+
+.contatame{
+	width: 80%;
+	padding-bottom: 5%;
+	overflow: hidden;
+	margin: auto;
+}
+
+.contatame input {
+	width: 80%;
+	background-color: rgba( 255,255,255, 0.2);
+	border: none;
+}
+.contatame textarea {
+	width: 80%;
+	height: 150px;
+	background-color: rgba( 255,255,255, 0.2);
+	border: none;
+}
+.contatame button{
+	width: 30%;
+	height: 50px;
+	background-color:#00CED1;
+	color: white;
+	margin-top: 5%;
+	border: none;
+}
+.redes{
+	width: 100%;
+	height: 380px;
+	color: #696969;
+	padding: 0 15%;
+}
+.redes .chico{
+	font-size:15px;
+	padding: 0 0 7% 0;
+} 
+
+.redes i{
+	padding: 10% 1%;
+	font-size:40px;
+} 
+footer{
+	width: 100%;
+	height: 70px;
+	background-color: black;
+	color: #FAEBD7;
+	padding: 5%;
+}
+
+.rs{
+	color: #696969;
+}
